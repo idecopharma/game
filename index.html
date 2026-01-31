@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cổng Game Giải Trí 2026</title>
+    <style>
+        :root {
+            --primary-color: #e74c3c; /* Màu đỏ Tết */
+            --secondary-color: #f1c40f; /* Màu vàng */
+            --bg-color: #fdf2e9;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            background-image: linear-gradient(135deg, #fdf2e9 0%, #ffecd2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background: linear-gradient(to right, #d35400, #c0392b);
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 20px;
+            width: 280px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: var(--text-color);
+            position: relative;
+            border: 2px solid transparent;
+        }
+
+        .game-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(231, 76, 60, 0.3);
+            border-color: var(--secondary-color);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .game-card:hover .card-image img {
+            transform: scale(1.1);
+        }
+
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .game-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .game-desc {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .play-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 25px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .game-card:hover .play-btn {
+            background-color: #c0392b;
+        }
+
+        /* Hiệu ứng trang trí nhỏ */
+        .decoration {
+            position: absolute;
+            font-size: 2rem;
+            top: 10px;
+            right: 10px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🎮 Cổng Game Giải Trí 2026 🎲</h1>
+    </header>
+
+    <div class="container">
+        
+        <a href="https://baucua2026.netlify.app" class="game-card" target="_blank">
+            <div class="card-image">
+                <img src="https://cdn.imgpile.com/f/LjVQvr3_xl.jpg" alt="Bầu Cua 2026">
+            </div>
+            <div class="decoration">🎲</div>
+            <div class="card-content">
+                <div class="game-title">Bầu Cua 2026</div>
+                <div class="game-desc">Thử vận may đầu năm với trò chơi dân gian kinh điển.</div>
+                <span class="play-btn">Chơi Ngay</span>
+            </div>
+        </a>
+
+        <a href="https://vongquaymayman2026.netlify.app" class="game-card" target="_blank">
+            <div class="card-image">
+                <img src="https://cdn.imgpile.com/f/bSoZv2p_xl.jpg" alt="Vòng Quay May Mắn">
+            </div>
+            <div class="decoration">🎡</div>
+            <div class="card-content">
+                <div class="game-title">Vòng Quay 2026</div>
+                <div class="game-desc">Quay là trúng! Nhận lộc xuân may mắn mỗi ngày.</div>
+                <span class="play-btn">Quay Ngay</span>
+            </div>
+        </a>
+<a href="https://baicao2026.netlify.app/" class="game-card" target="_blank">
+            <div class="card-image">
+                <img src="https://cdn.imgpile.com/f/XwuTQ3s_xl.jpg" alt="Vòng Quay May Mắn">
+            </div>
+            <div class="decoration">🎡</div>
+            <div class="card-content">
+                <div class="game-title">Bài cao</div>
+                <div class="game-desc">Quay là trúng! Nhận lộc xuân may mắn mỗi ngày.</div>
+                <span class="play-btn">Quay Ngay</span>
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>
